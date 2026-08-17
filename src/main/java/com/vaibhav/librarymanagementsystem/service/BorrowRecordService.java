@@ -56,4 +56,7 @@ public class BorrowRecordService {
 
         return borrowRecordRepository.save(record);
     }
+    public java.util.List<BorrowRecord> getAllBorrowRecords() {
+        return borrowRecordRepository.findAll();
+    }
 }
