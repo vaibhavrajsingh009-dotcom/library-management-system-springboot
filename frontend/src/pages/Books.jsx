@@ -1,4 +1,4 @@
-jsx
+
 import { useEffect, useState } from "react";
 
 const API = "http://localhost:8080/api/books";
